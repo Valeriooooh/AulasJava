@@ -1,6 +1,6 @@
 package AtividadeC;
 
-import java.util.GregorianCalendar;
+import java.util.Calendar;
 
 public class PessoaComErro { // CLASSE COM ERRO DELIBERADO
 
@@ -8,7 +8,7 @@ public class PessoaComErro { // CLASSE COM ERRO DELIBERADO
     int idade;
     char genero;
     String morada;
-    private GregorianCalendar dataRegisto;
+    private Calendar dataRegisto;
 
     PessoaComErro() { // construtor QUE PROVOCARÁ EXCEÇÃO
     }
