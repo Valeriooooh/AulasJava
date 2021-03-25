@@ -13,8 +13,7 @@ public class LerFicheiro {
             }
             ficheiro.close();
         } catch (IOException e) {
-            System.out.println("Error " + e.getMessage());
-            e.printStackTrace();
+            System.out.println("Error ");
         }
     }
 }
