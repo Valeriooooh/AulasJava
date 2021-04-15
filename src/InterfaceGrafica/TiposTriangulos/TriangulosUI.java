@@ -56,4 +56,5 @@ public class TriangulosUI {
     public boolean isModified(TriangulosCode data) {
         return false;
     }
+
 }
